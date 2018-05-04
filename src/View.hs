@@ -136,7 +136,6 @@ shapeToRaster z s hShape = clean
                (#cons(#P xy)(r(`iAdd x `iOne)
                               y
                               (`iAdd d(`iAdd(`iMult `iFour x)`iTen))))))]
-         test ::= [λrxyd.#nil]
          bresCircleSmooth ::= [#Y(λrxyde.`iLt yx #nil
              ((λz.
                (`dLt z `dZero 
